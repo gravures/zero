@@ -1,0 +1,24 @@
+<paquet
+	prefix="zero"
+	categorie="squelette"
+	version="1.0.0"
+	etat="test"
+	compatibilite="[3.2.0;4.1.*]"
+	logo="img/spipr_dist-32.png"
+	documentation="http://spipr.nursit.com/"
+>
+
+	<nom>ZERO</nom>
+  <!-- Squelette ZCore configurable -->
+  <auteur lien="https://github.com/gravures">gilles coissac</auteur>
+	<auteur>Collectif SPIP</auteur>
+  <licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GPL 3</licence>
+
+	<necessite nom="Zcore" compatibilite="[2.7.0;[" />
+	<necessite nom="scssphp" compatibilite="[1.5.1;2.*.*]" />
+	<necessite nom="comments" compatibilite="[3.3.2;[" />
+	
+	<utilise nom="albums" compatibilite="[1.0.0;[" />
+	
+	<pipeline nom="affichage_final" inclure="zero_pipelines.php"/>
+</paquet>
