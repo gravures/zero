@@ -20,5 +20,5 @@
 	
 	<utilise nom="albums" compatibilite="[1.0.0;[" />
 	
-	<pipeline nom="affichage_final" inclure="zero_pipelines.php"/>
+	<pipeline nom="insert_head" inclure="zero_pipelines.php"/>
 </paquet>
