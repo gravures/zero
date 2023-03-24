@@ -17,7 +17,7 @@ function zero_insert_head($flux) {
 	) {
 		if (
 			($cgv = find_in_path('js/cssGridViewer/css-grid-viewer.js'))
-			and ($gv = find_in_path('js/grid-viewer.js'))
+			and ($gv = find_in_path('js/zero_edit.js'))
 		) {
 			$flux .= '<script type="text/javascript" src="' . $cgv . '"></script>'
 			         . '<script type="text/javascript" src="' . $gv . '"></script>';
